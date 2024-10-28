@@ -5,10 +5,12 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;  
 }
 
 body {
   font-family: "Poppins", sans-serif;
+  line-height: 1.6; /* Added line-height to create a consistent spacing */  
 }
 
 html {
@@ -150,7 +152,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  height: 100vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -158,6 +160,10 @@ section {
 
 .section-container {
   display: flex;
+  flex-direction: column; /* Changed to column to stack elements vertically */  
+  align-items: center;  
+  justify-content: center;  
+  height: 100%; /* Changed to 100% to make it relative to the parent element */  
 }
 
 /* PROFILE SECTION */
