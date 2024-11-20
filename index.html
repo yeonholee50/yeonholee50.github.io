@@ -48,11 +48,12 @@
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
           <!-- Button with icon and download functionality -->
-          <a href="./assets/resume.png" download>
-            <button class="btn btn-color-2">
-              <i class="fa fa-download"></i> Download CV
-            </button>
-          </a>
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume.pdf')"
+          >
+            Download CV
+          </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
           </button>
